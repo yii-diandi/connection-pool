@@ -1,0 +1,40 @@
+{
+  "name": "yii-diandi/connection-pool",
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/yii-diandi/connection-pool/issues",
+    "source": "https://github.com/yii-diandi/connection-pool"
+  },
+  "description": "swoole连接池扩展类库",
+  "keywords": [
+    "swoole",
+    "connection-pool",
+    "database-connection-pool"
+  ],
+  "homepage": "https://github.com/yii-diandi/connection-pool",
+  "authors": [
+    {
+      "name": "Wang Chunsheng",
+      "email": "2192138785@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "ext-json": "*",
+    "ext-swoole": ">=4.2.9"
+  },
+  "suggest": {
+    "ext-redis": "A PHP extension for Redis."
+  },
+  "autoload": {
+    "psr-4": {
+      "diandi\\connection\\": "src"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "require-dev": {
+    "swoole/ide-helper": "@dev"
+  }
+}
